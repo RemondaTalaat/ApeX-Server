@@ -84,6 +84,9 @@ Route::patch('/ChangePassword', 'AccountController@changePassword');
 
 
 // ApexCom
+Route::get('/Remonda', 'ApexComController@guestAbout');
+
+// ApexCom
 Route::get('/AboutApexcom', 'ApexComController@guestAbout');
 
 // links and comments
